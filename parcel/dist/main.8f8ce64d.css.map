@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,KACI,oBAAsB,CACtB,UAAW,CACX,UACJ","file":"main.8f8ce64d.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n    background-color: #F00;\r\n    width: 100%;\r\n    height: 100;\r\n}"]}
