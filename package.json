@@ -1,14 +1,22 @@
 {
   "devDependencies": {
     "eslint-loader": "^4.0.2",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11"
   },
   "scripts": {
-    "test": "eslint ESLint/01-prepare.js "
+    "test": "eslint ESLint/01-prepare.js ",
+    "precommit": "lint-staged"
   },
   "husky": {
     "hooks": {
-      "pre-commit ": "yarn test"
+      "pre-commit ": "yarn precommit"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "git add"
+    ]
   }
 }
