@@ -1,5 +1,14 @@
 {
   "devDependencies": {
-    "eslint-loader": "^4.0.2"
+    "eslint-loader": "^4.0.2",
+    "husky": "^4.2.5"
+  },
+  "scripts": {
+    "test": "eslint ESLint/01-prepare.js "
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit ": "yarn test"
+    }
   }
 }

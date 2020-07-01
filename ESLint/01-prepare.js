@@ -5,3 +5,4 @@ function fn () {
 }
 
 fn()
+hhh(
