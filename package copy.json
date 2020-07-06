@@ -7,5 +7,16 @@
   "scripts": {
     "test": "eslint ESLint/01-prepare.js ",
     "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit ": "yarn precommit"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "git add"
+    ]
   }
 }
