@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "rollup": "^2.18.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
